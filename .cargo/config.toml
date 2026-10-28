@@ -1,8 +1,0 @@
-# Reuse the v3 toolkit's vendored crates for offline builds. The module is a
-# separate repo, but it ships in the same toolkit and must build on the same
-# offline machine.
-[source.crates-io]
-replace-with = "vendored-sources"
-
-[source.vendored-sources]
-directory = "../cs viewer builder/native-csviewer/vendor"
