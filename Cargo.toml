@@ -1,0 +1,16 @@
+[package]
+name = "nzkide-module"
+description = "The VSCode-like source IDE pane for cs viewer v3 (egui, no browser engine)"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/naruzkurai/nzkide_module"
+
+# A separable addon. The host (`native-csviewer`) takes it by path and supplies
+# its graph through `idelink_nzkide::Language`; this crate has no host types,
+# no `Graph`, no `CodeLensView` and no chrome.
+[dependencies]
+egui = { version = "0.37", default-features = false, features = ["default_fonts"] }
+csgraph-core = { path = "../cs viewer builder/rust-only-csviewer/core" }
+serde_json = "1"
+def2mcpfnnumber = { path = "../def2mcpfnnumber_rs_ide_addon" }
