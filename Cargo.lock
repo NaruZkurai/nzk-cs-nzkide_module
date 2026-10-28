@@ -117,7 +117,8 @@ checksum = "a31eee39dddec8330830986fcd7625edb5a24ec90ea038215273bbc3adb08ac6"
 
 [[package]]
 name = "csgraph-core"
-version = "2.2.0"
+version = "3.0.0-beta.9"
+source = "git+https://github.com/NaruZkurai/nzk-cs-viewer.git?rev=c90bfca0218ab9a6d3536cea040fe34c6d2a6d30#c90bfca0218ab9a6d3536cea040fe34c6d2a6d30"
 dependencies = [
  "crossbeam-channel",
  "flate2",
@@ -130,6 +131,7 @@ dependencies = [
 [[package]]
 name = "def2mcpfnnumber"
 version = "0.1.0"
+source = "git+https://github.com/NaruZkurai/nzk-cs-def2mcpfnnumber_rs_ide_addon.git?rev=a063dfc8ffd6306b7a15dcd8959241df4ae684ac#a063dfc8ffd6306b7a15dcd8959241df4ae684ac"
 
 [[package]]
 name = "ecolor"
