@@ -28,3 +28,6 @@ pub mod idelink_nzkide;
 /// The shared syntax tokenizer, re-exported so callers of this crate and of
 /// Scratch name the same one.
 pub use def2mcpfnnumber::syntax as token_nzkide;
+
+/// Crate version (kept in one place: `Cargo.toml`).
+pub const VERSION: &str = env!("CARGO_PKG_VERSION");
